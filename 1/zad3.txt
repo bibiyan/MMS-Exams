@@ -1,0 +1,15 @@
+ps aux | wc -l
+
+mkdir -p MMSCcamp
+cp ./*.c MMSCcamp
+rm ./[0-9]*
+
+chmod 754 ~/Desktop/testFile
+
+cat ./source1.c | wc -l
+cat ./source2.c | wc -l
+
+cat ./source1.c | wc -l >> lineCount
+cat ./source2.c | wc -l >> lineCount
+
+
